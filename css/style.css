@@ -58,11 +58,6 @@
 .jumbotron .jumbotron__content {
   width: 800px;
   margin: 0 auto;
-
-  /* debug */
-  background-color: #ee82ee;
-  border: 2px dashed black;
-  height: 400px;
 }
 
 /* ## ROWS SECTION */
@@ -177,7 +172,7 @@ main > .download .col {
 }
 
 /* --------------------------------------------------------------------------- */
-.header{
+.header {
   background-color: #255ee9;
   font-size: small;
 }
@@ -204,9 +199,7 @@ a {
   align-items: center
 }
 
-.btn_header{
-  text-align: ;
-  display: inline-block;
+.btn {
   background-color: white;
   border-radius: 10px;
   padding: 5px 10px;
@@ -214,11 +207,26 @@ a {
 
 /* JUMBO-------------------------------------- */
 .jumbotron {
+  min-height: 600px;
   background-image: url(../img/jumbo.png);
   background-size: cover;
   color: white;
 }
 
+.jumbotron__content {
+  text-align: center;
+  line-height: 3rem;
+  font-size: large;
+  font-weight: bolder;
+}
 
+h1 {
+  font-size: 3.5rem;
+  margin: 2rem;
+}
 
+.jumbotron__content > .btn {
+  color: black;
+  font-weight: 400;
+} 
 
